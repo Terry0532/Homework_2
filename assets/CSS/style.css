@@ -5,3 +5,12 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.addLine {
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+hr.new {
+    border-top: 1px solid #ccc;
+}
