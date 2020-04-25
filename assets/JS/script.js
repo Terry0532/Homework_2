@@ -1,5 +1,6 @@
 $(function () {
     $('[data-toggle="tooltip"]').tooltip({
-        html: true
+        html: true,
+        trigger: "hover"
     })
 })
