@@ -19,7 +19,7 @@
 <body style="margin-bottom: 30px;">
 
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <span class="navbar-brand mb-1 h1">Terry Gong</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,15 +28,26 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="index.html">About</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
                 <a class="nav-item nav-link" href="contact.html">Contact</a>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <ul class="nav nav-tabs justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
     <!-- end of navigation bar -->
 
     <!-- grid layout -->
-    <div class="container">
+    <div class="container mt-2">
         <div class="row">
             <!-- portfolio -->
             <div class="col-md">
@@ -45,8 +56,8 @@
                 <div class="accordion" id="accordionPortfolio">
                     <div class="card">
                         <div class="card-header text-center" id="headingOne">
-                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                aria-controls="collapseOne">Group Project: Celebrity Twin</h3>
+                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">Group Project: Celebrity Twin</h3>
                         </div>
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                             data-parent="#accordionPortfolio">
@@ -63,8 +74,8 @@
                     </div>
                     <div class="card">
                         <div class="card-header text-center" id="headingTwo">
-                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
-                                aria-controls="collapseTwo">Weather Dashboard</h3>
+                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo">Weather Dashboard</h3>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                             data-parent="#accordionPortfolio">
@@ -81,8 +92,8 @@
                     </div>
                     <div class="card">
                         <div class="card-header text-center" id="headingThree">
-                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
-                                aria-controls="collapseThree">HTML Quiz</h3>
+                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree">HTML Quiz</h3>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                             data-parent="#accordionPortfolio">
@@ -99,8 +110,8 @@
                     </div>
                     <div class="card">
                         <div class="card-header text-center" id="headingFour">
-                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
-                                aria-controls="collapseFour">Work Day Scheduler</h3>
+                            <h3 class="mb-0 pointer" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="true" aria-controls="collapseFour">Work Day Scheduler</h3>
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
                             data-parent="#accordionPortfolio">
