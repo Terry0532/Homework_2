@@ -35,3 +35,7 @@ hr.new {
 .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
     border-left-color: white !important;
 }
+
+.pointer {
+    cursor: pointer;
+}
